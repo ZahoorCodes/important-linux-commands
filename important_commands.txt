@@ -11,3 +11,9 @@
     sudo snap refresh telegram-desktop
 #uninstall telegram using snap
     sudo snap remove telegram-desktop
+
+#update telegram
+/opt/Telegram/./Updater
+
+uninstall telegram
+    sudo rm -r /opt/Telegram
