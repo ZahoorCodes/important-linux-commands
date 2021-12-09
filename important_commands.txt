@@ -1,0 +1,13 @@
+#command to chane display manager
+    sudo dpkg-reconfigure gdm3
+
+#check current display manager
+    echo $DESKTOP_SESSION    
+#if desktop not showing ? show desktop
+    xfdesktop
+#install Telegram on kali linux
+    https://www.how2shout.com/linux/how-to-install-telegram-on-kali-linux/
+#update telegram using snap
+    sudo snap refresh telegram-desktop
+#uninstall telegram using snap
+    sudo snap remove telegram-desktop
